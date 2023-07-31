@@ -247,9 +247,9 @@ class EasyData2VOC(X2VOC):
 
 def conver():
     lm=LabelMe2VOC()
-    image_dir="/gzy_mnt/nanodet/datasetwhite/bottom/new_gan/img"
-    json_dir="/gzy_mnt/nanodet/datasetwhite/bottom/new_gan/json"
-    xml_dir="/gzy_mnt/nanodet/datasetwhite/bottom/new_gan/xml"
+    image_dir="/gzy_mnt/nanodet/datasetwhite/bottom/bottom_club/img"
+    json_dir="/gzy_mnt/nanodet/datasetwhite/bottom/bottom_club/json"
+    xml_dir="/gzy_mnt/nanodet/datasetwhite/bottom/bottom_club/xml"
     lm.json2xml(image_dir,json_dir,xml_dir)
 
 conver()
